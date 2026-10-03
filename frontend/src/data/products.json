@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "guitars-001",
+    "title": "Melodia Essential Acoustic Guitar",
+    "description": "A dependable acoustic guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "Melodia",
+    "price": 1336.25,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "40 × 20 × 8 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "guitars-002",
+    "title": "BeatBox Essential Electric Guitar",
+    "description": "A dependable electric guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "BeatBox",
+    "price": 1773.5,
+    "rating": 3.7,
+    "stock": 3,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "42 × 21 × 9 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-02T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "guitars-003",
+    "title": "Raaga Essential Classical Guitar",
+    "description": "A dependable classical guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "Raaga",
+    "price": 2210.75,
+    "rating": 3.8,
+    "stock": 26,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "44 × 22 × 10 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-03T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "guitars-004",
+    "title": "StudioOne Essential Bass Guitar",
+    "description": "A dependable bass guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "StudioOne",
+    "price": 2648,
+    "rating": 3.9,
+    "stock": 9,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "46 × 23 × 11 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-04T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "guitars-005",
+    "title": "Swara Essential Travel Guitar",
+    "description": "A dependable travel guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "Swara",
+    "price": 3085.25,
+    "rating": 4,
+    "stock": 16,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "48 × 24 × 8 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "guitars-006",
+    "title": "Melodia Performance Acoustic Guitar",
+    "description": "A dependable acoustic guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "Melodia",
+    "price": 3522.5,
+    "rating": 4.1,
+    "stock": 23,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "50 × 25 × 9 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-06T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "guitars-007",
+    "title": "BeatBox Performance Electric Guitar",
+    "description": "A dependable electric guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "BeatBox",
+    "price": 3959.75,
+    "rating": 4.2,
+    "stock": 6,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "52 × 26 × 10 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-07T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "guitars-008",
+    "title": "Raaga Performance Classical Guitar",
+    "description": "A dependable classical guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "Raaga",
+    "price": 4397,
+    "rating": 4.3,
+    "stock": 13,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "54 × 27 × 11 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-08T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "guitars-009",
+    "title": "StudioOne Performance Bass Guitar with Carry Case, Learning Guide, Cable and Complete Beginner Accessory Pack",
+    "description": "A dependable bass guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "StudioOne",
+    "price": 4834.25,
+    "rating": 4.4,
+    "stock": 20,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "56 × 28 × 8 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-09T00:00:00.000Z"
+  },
+  {
+    "id": "guitars-010",
+    "title": "Swara Performance Travel Guitar",
+    "description": "A dependable travel guitar for practice, lessons, performances, and everyday music making.",
+    "category": "Guitars",
+    "brand": "Swara",
+    "price": 5271.5,
+    "rating": 4.5,
+    "stock": 27,
+    "specs": {
+      "Type": "String instrument",
+      "Material": "Seasoned tonewood",
+      "Strings": "6",
+      "Warranty": "1 year",
+      "Dimensions": "58 × 29 × 9 cm"
+    },
+    "thumbnail": "/images/products/guitars-1.svg",
+    "images": ["/images/products/guitars-1.svg", "/images/products/guitars-2.svg"],
+    "createdAt": "2025-01-10T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "keyboards-001",
+    "title": "Melodia Essential Portable Keyboard",
+    "description": "A dependable portable keyboard for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "Melodia",
+    "price": 5708.75,
+    "rating": 4.6,
+    "stock": 0,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "40 × 20 × 8 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-11T00:00:00.000Z"
+  },
+  {
+    "id": "keyboards-002",
+    "title": "BeatBox Essential Digital Piano",
+    "description": "A dependable digital piano for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "BeatBox",
+    "price": 6146,
+    "rating": 4.7,
+    "stock": 3,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "42 × 21 × 9 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-12T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "keyboards-003",
+    "title": "Raaga Essential MIDI Keyboard",
+    "description": "A dependable midi keyboard for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "Raaga",
+    "price": 6583.25,
+    "rating": 4.8,
+    "stock": 24,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "44 × 22 × 10 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-13T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "keyboards-004",
+    "title": "StudioOne Essential Stage Piano",
+    "description": "A dependable stage piano for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "StudioOne",
+    "price": 7020.5,
+    "rating": 4.9,
+    "stock": 7,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "46 × 23 × 11 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-14T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "keyboards-005",
+    "title": "Swara Essential Synthesizer",
+    "description": "A dependable synthesizer for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "Swara",
+    "price": 7457.75,
+    "rating": 3.5,
+    "stock": 14,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "48 × 24 × 8 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "keyboards-006",
+    "title": "Melodia Performance Portable Keyboard",
+    "description": "A dependable portable keyboard for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "Melodia",
+    "price": 7895,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "50 × 25 × 9 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-16T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "keyboards-007",
+    "title": "BeatBox Performance Digital Piano",
+    "description": "A dependable digital piano for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "BeatBox",
+    "price": 8332.25,
+    "rating": 3.7,
+    "stock": 28,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "52 × 26 × 10 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-17T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "keyboards-008",
+    "title": "Raaga Performance MIDI Keyboard",
+    "description": "A dependable midi keyboard for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "Raaga",
+    "price": 8769.5,
+    "rating": 3.8,
+    "stock": 11,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "54 × 27 × 11 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-18T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "keyboards-009",
+    "title": "StudioOne Performance Stage Piano with Carry Case, Learning Guide, Cable and Complete Beginner Accessory Pack",
+    "description": "A dependable stage piano for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "StudioOne",
+    "price": 9206.75,
+    "rating": 3.9,
+    "stock": 18,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "56 × 28 × 8 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-19T00:00:00.000Z"
+  },
+  {
+    "id": "keyboards-010",
+    "title": "Swara Performance Synthesizer",
+    "description": "A dependable synthesizer for practice, lessons, performances, and everyday music making.",
+    "category": "Keyboards",
+    "brand": "Swara",
+    "price": 9644,
+    "rating": 4,
+    "stock": 25,
+    "specs": {
+      "Type": "Electronic keyboard",
+      "Keys": "61",
+      "Includes": "Power adapter",
+      "Warranty": "2 years",
+      "Dimensions": "58 × 29 × 9 cm"
+    },
+    "thumbnail": "/images/products/keyboards-1.svg",
+    "images": ["/images/products/keyboards-1.svg", "/images/products/keyboards-2.svg"],
+    "createdAt": "2025-01-20T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "percussion-001",
+    "title": "Melodia Essential Cajon",
+    "description": "A dependable cajon for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "Melodia",
+    "price": 10081.25,
+    "rating": 4.1,
+    "stock": 0,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "40 × 20 × 8 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-21T00:00:00.000Z"
+  },
+  {
+    "id": "percussion-002",
+    "title": "BeatBox Essential Drum Kit",
+    "description": "A dependable drum kit for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "BeatBox",
+    "price": 10518.5,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "42 × 21 × 9 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-22T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "percussion-003",
+    "title": "Raaga Essential Djembe",
+    "description": "A dependable djembe for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "Raaga",
+    "price": 10955.75,
+    "rating": 4.3,
+    "stock": 22,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "44 × 22 × 10 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-23T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "percussion-004",
+    "title": "StudioOne Essential Tambourine",
+    "description": "A dependable tambourine for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "StudioOne",
+    "price": 11393,
+    "rating": 4.4,
+    "stock": 5,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "46 × 23 × 11 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-24T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "percussion-005",
+    "title": "Swara Essential Practice Pad",
+    "description": "A dependable practice pad for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "Swara",
+    "price": 11830.25,
+    "rating": 4.5,
+    "stock": 12,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "48 × 24 × 8 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-25T00:00:00.000Z"
+  },
+  {
+    "id": "percussion-006",
+    "title": "Melodia Performance Cajon",
+    "description": "A dependable cajon for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "Melodia",
+    "price": 12267.5,
+    "rating": 4.6,
+    "stock": 19,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "50 × 25 × 9 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-26T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "percussion-007",
+    "title": "BeatBox Performance Drum Kit",
+    "description": "A dependable drum kit for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "BeatBox",
+    "price": 12704.75,
+    "rating": 4.7,
+    "stock": 26,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "52 × 26 × 10 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-27T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "percussion-008",
+    "title": "Raaga Performance Djembe",
+    "description": "A dependable djembe for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "Raaga",
+    "price": 13142,
+    "rating": 4.8,
+    "stock": 9,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "54 × 27 × 11 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-28T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "percussion-009",
+    "title": "StudioOne Performance Tambourine with Carry Case, Learning Guide, Cable and Complete Beginner Accessory Pack",
+    "description": "A dependable tambourine for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "StudioOne",
+    "price": 13579.25,
+    "rating": 4.9,
+    "stock": 16,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "56 × 28 × 8 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-29T00:00:00.000Z"
+  },
+  {
+    "id": "percussion-010",
+    "title": "Swara Performance Practice Pad",
+    "description": "A dependable practice pad for practice, lessons, performances, and everyday music making.",
+    "category": "Percussion",
+    "brand": "Swara",
+    "price": 14016.5,
+    "rating": 3.5,
+    "stock": 23,
+    "specs": {
+      "Type": "Percussion",
+      "Material": "Wood and metal",
+      "Includes": "Tuning key",
+      "Warranty": "1 year",
+      "Dimensions": "58 × 29 × 9 cm"
+    },
+    "thumbnail": "/images/products/percussion-1.svg",
+    "images": ["/images/products/percussion-1.svg", "/images/products/percussion-2.svg"],
+    "createdAt": "2025-01-30T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "indian-classical-001",
+    "title": "Melodia Essential Sitar",
+    "description": "A dependable sitar for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "Melodia",
+    "price": 14453.75,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "40 × 20 × 8 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-01-31T00:00:00.000Z"
+  },
+  {
+    "id": "indian-classical-002",
+    "title": "BeatBox Essential Tabla Set",
+    "description": "A dependable tabla set for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "BeatBox",
+    "price": 14891,
+    "rating": 3.7,
+    "stock": 3,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "42 × 21 × 9 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-01T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "indian-classical-003",
+    "title": "Raaga Essential Bansuri",
+    "description": "A dependable bansuri for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "Raaga",
+    "price": 15328.25,
+    "rating": 3.8,
+    "stock": 20,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "44 × 22 × 10 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-02T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "indian-classical-004",
+    "title": "StudioOne Essential Tanpura",
+    "description": "A dependable tanpura for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "StudioOne",
+    "price": 15765.5,
+    "rating": 3.9,
+    "stock": 27,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "46 × 23 × 11 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-03T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "indian-classical-005",
+    "title": "Swara Essential Harmonium",
+    "description": "A dependable harmonium for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "Swara",
+    "price": 16202.75,
+    "rating": 4,
+    "stock": 10,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "48 × 24 × 8 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-04T00:00:00.000Z"
+  },
+  {
+    "id": "indian-classical-006",
+    "title": "Melodia Performance Sitar",
+    "description": "A dependable sitar for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "Melodia",
+    "price": 16640,
+    "rating": 4.1,
+    "stock": 17,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "50 × 25 × 9 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-05T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "indian-classical-007",
+    "title": "BeatBox Performance Tabla Set",
+    "description": "A dependable tabla set for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "BeatBox",
+    "price": 17077.25,
+    "rating": 4.2,
+    "stock": 24,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "52 × 26 × 10 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-06T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "indian-classical-008",
+    "title": "Raaga Performance Bansuri",
+    "description": "A dependable bansuri for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "Raaga",
+    "price": 17514.5,
+    "rating": 4.3,
+    "stock": 7,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "54 × 27 × 11 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-07T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "indian-classical-009",
+    "title": "StudioOne Performance Tanpura with Carry Case, Learning Guide, Cable and Complete Beginner Accessory Pack",
+    "description": "A dependable tanpura for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "StudioOne",
+    "price": 17951.75,
+    "rating": 4.4,
+    "stock": 14,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "56 × 28 × 8 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-08T00:00:00.000Z"
+  },
+  {
+    "id": "indian-classical-010",
+    "title": "Swara Performance Harmonium",
+    "description": "A dependable harmonium for practice, lessons, performances, and everyday music making.",
+    "category": "Indian classical",
+    "brand": "Swara",
+    "price": 18389,
+    "rating": 4.5,
+    "stock": 21,
+    "specs": {
+      "Type": "Indian classical",
+      "Material": "Hand-finished wood",
+      "Includes": "Protective cover",
+      "Warranty": "1 year",
+      "Dimensions": "58 × 29 × 9 cm"
+    },
+    "thumbnail": "/images/products/indian-classical-1.svg",
+    "images": [
+      "/images/products/indian-classical-1.svg",
+      "/images/products/indian-classical-2.svg"
+    ],
+    "createdAt": "2025-02-09T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "studio-audio-001",
+    "title": "Melodia Essential Studio Microphone",
+    "description": "A dependable studio microphone for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "Melodia",
+    "price": 18826.25,
+    "rating": 4.6,
+    "stock": 0,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "40 × 20 × 8 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-10T00:00:00.000Z"
+  },
+  {
+    "id": "studio-audio-002",
+    "title": "BeatBox Essential Audio Interface",
+    "description": "A dependable audio interface for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "BeatBox",
+    "price": 19263.5,
+    "rating": 4.7,
+    "stock": 3,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "42 × 21 × 9 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-11T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "studio-audio-003",
+    "title": "Raaga Essential Studio Monitor",
+    "description": "A dependable studio monitor for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "Raaga",
+    "price": 19700.75,
+    "rating": 4.8,
+    "stock": 18,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "44 × 22 × 10 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-12T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "studio-audio-004",
+    "title": "StudioOne Essential Mixing Console",
+    "description": "A dependable mixing console for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "StudioOne",
+    "price": 20138,
+    "rating": 4.9,
+    "stock": 25,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "46 × 23 × 11 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-13T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "studio-audio-005",
+    "title": "Swara Essential Monitor Headphones",
+    "description": "A dependable monitor headphones for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "Swara",
+    "price": 20575.25,
+    "rating": 3.5,
+    "stock": 8,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "48 × 24 × 8 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-14T00:00:00.000Z"
+  },
+  {
+    "id": "studio-audio-006",
+    "title": "Melodia Performance Studio Microphone",
+    "description": "A dependable studio microphone for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "Melodia",
+    "price": 21012.5,
+    "rating": 3.6,
+    "stock": 15,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "50 × 25 × 9 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-15T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "studio-audio-007",
+    "title": "BeatBox Performance Audio Interface",
+    "description": "A dependable audio interface for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "BeatBox",
+    "price": 21449.75,
+    "rating": 3.7,
+    "stock": 22,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "52 × 26 × 10 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-16T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "studio-audio-008",
+    "title": "Raaga Performance Studio Monitor",
+    "description": "A dependable studio monitor for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "Raaga",
+    "price": 21887,
+    "rating": 3.8,
+    "stock": 5,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "54 × 27 × 11 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-17T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "studio-audio-009",
+    "title": "StudioOne Performance Mixing Console with Carry Case, Learning Guide, Cable and Complete Beginner Accessory Pack",
+    "description": "A dependable mixing console for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "StudioOne",
+    "price": 22324.25,
+    "rating": 3.9,
+    "stock": 12,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "56 × 28 × 8 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-18T00:00:00.000Z"
+  },
+  {
+    "id": "studio-audio-010",
+    "title": "Swara Performance Monitor Headphones",
+    "description": "A dependable monitor headphones for practice, lessons, performances, and everyday music making.",
+    "category": "Studio audio",
+    "brand": "Swara",
+    "price": 22761.5,
+    "rating": 4,
+    "stock": 19,
+    "specs": {
+      "Type": "Studio equipment",
+      "Connectivity": "USB and XLR",
+      "Includes": "Cable",
+      "Warranty": "2 years",
+      "Dimensions": "58 × 29 × 9 cm"
+    },
+    "thumbnail": "/images/products/studio-audio-1.svg",
+    "images": ["/images/products/studio-audio-1.svg", "/images/products/studio-audio-2.svg"],
+    "createdAt": "2025-02-19T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "accessories-001",
+    "title": "Melodia Essential Guitar Picks",
+    "description": "A dependable guitar picks for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "Melodia",
+    "price": 23198.75,
+    "rating": 4.1,
+    "stock": 0,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "40 × 20 × 8 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-20T00:00:00.000Z"
+  },
+  {
+    "id": "accessories-002",
+    "title": "BeatBox Essential Instrument Cable",
+    "description": "A dependable instrument cable for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "BeatBox",
+    "price": 23636,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "42 × 21 × 9 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-21T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "accessories-003",
+    "title": "Raaga Essential Folding Stand",
+    "description": "A dependable folding stand for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "Raaga",
+    "price": 24073.25,
+    "rating": 4.3,
+    "stock": 16,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "44 × 22 × 10 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-22T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "accessories-004",
+    "title": "StudioOne Essential Digital Metronome",
+    "description": "A dependable digital metronome for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "StudioOne",
+    "price": 24510.5,
+    "rating": 4.4,
+    "stock": 23,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "46 × 23 × 11 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-23T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "accessories-005",
+    "title": "Swara Essential Padded Gig Bag",
+    "description": "A dependable padded gig bag for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "Swara",
+    "price": 24947.75,
+    "rating": 4.5,
+    "stock": 6,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "48 × 24 × 8 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "accessories-006",
+    "title": "Melodia Performance Guitar Picks",
+    "description": "A dependable guitar picks for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "Melodia",
+    "price": 25385,
+    "rating": 4.6,
+    "stock": 13,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "50 × 25 × 9 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-25T00:00:00.000Z",
+    "discountPercentage": 0
+  },
+  {
+    "id": "accessories-007",
+    "title": "BeatBox Performance Instrument Cable",
+    "description": "A dependable instrument cable for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "BeatBox",
+    "price": 25822.25,
+    "rating": 4.7,
+    "stock": 20,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "52 × 26 × 10 cm"
+    },
+    "thumbnail": "/images/products/missing-image.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-26T00:00:00.000Z",
+    "discountPercentage": 10
+  },
+  {
+    "id": "accessories-008",
+    "title": "Raaga Performance Folding Stand",
+    "description": "A dependable folding stand for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "Raaga",
+    "price": 26259.5,
+    "rating": 4.8,
+    "stock": 27,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "54 × 27 × 11 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-27T00:00:00.000Z",
+    "discountPercentage": 20
+  },
+  {
+    "id": "accessories-009",
+    "title": "StudioOne Performance Digital Metronome with Carry Case, Learning Guide, Cable and Complete Beginner Accessory Pack",
+    "description": "A dependable digital metronome for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "StudioOne",
+    "price": 1299.5,
+    "rating": 4.9,
+    "stock": 10,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "56 × 28 × 8 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-02-28T00:00:00.000Z"
+  },
+  {
+    "id": "accessories-010",
+    "title": "Swara Performance Padded Gig Bag",
+    "description": "A dependable padded gig bag for practice, lessons, performances, and everyday music making.",
+    "category": "Accessories",
+    "brand": "Swara",
+    "price": 19.99,
+    "rating": 3.5,
+    "stock": 17,
+    "specs": {
+      "Type": "Musical accessory",
+      "Material": "Mixed materials",
+      "Includes": "Storage pouch",
+      "Warranty": "6 months",
+      "Dimensions": "58 × 29 × 9 cm"
+    },
+    "thumbnail": "/images/products/accessories-1.svg",
+    "images": ["/images/products/accessories-1.svg", "/images/products/accessories-2.svg"],
+    "createdAt": "2025-03-01T00:00:00.000Z",
+    "discountPercentage": 0
+  }
+]
