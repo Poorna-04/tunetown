@@ -113,7 +113,7 @@ Keep code close to the feature that owns it. Move an item into `components/`, `h
 - Account uses one lazy-loaded parent layout with nested pages.
 - Admin uses a lazy-loaded protected layout and nested product routes.
 - `ProductRoute` validates `:id` and renders the product-not-found view.
-- `AdminLayout` keeps the requested URL open while showing its role prompt, then reveals that same page after the role changes.
+- `AdminLayout` keeps a directly requested admin URL open while showing its role prompt, then reveals that page after the role changes. The header role switch instead sends managers to `/admin/products`, sends shoppers to `/`, and hides Cart and Wishlist shortcuts in manager mode.
 - The catch-all route renders a general not-found page.
 
 ## 5. State ownership
@@ -217,10 +217,10 @@ Store manager-selected image blobs in an IndexedDB `product-images` object store
 2. Re-read the latest stored products.
 3. Validate every requested quantity.
 4. Return `409` without changing anything if any item is short.
-5. Save the order and all stock deductions together in one updated snapshot.
+5. Save the stock deductions and order while still holding the checkout lock.
 6. Return the order ID and placement time.
 
-JavaScript in one browser tab runs this section synchronously between storage reads and writes. Cross-tab events then refresh other tabs. For the capstone simulation, define a deterministic last-write/conflict rule in `ADR.md` and revalidate at `placeOrder` to prevent overselling in normal use.
+`placeOrder` holds the browser-wide `tunetown-place-order` Web Lock around the read, duplicate check, stock validation, deduction, and order write. This serializes competing checkouts from different tabs; an in-tab Promise queue is the fallback where the Web Locks API is unavailable. Cross-tab events refresh other tabs after the lock-protected write completes.
 
 ## 8. Search and request coordination
 
@@ -269,8 +269,9 @@ This deliberate difference supports the required comparison: checkout benefits f
 
 - Reducers update the UI immediately.
 - Persistence happens through the custom middleware and data service.
+- Cart and wishlist saves use separate FIFO Promise queues so an older delayed save cannot overwrite a newer state.
 - Wishlist failures dispatch a compensating action that restores the previous state and creates a toast.
-- Cart reservation stores an operation ID for each requested change. Only the matching latest operation may commit or roll back that item.
+- Wishlist rollback runs only when the failed snapshot is still the current wishlist.
 - Selectors calculate item count, subtotal, GST, shipping, savings, and total.
 - Product objects are never changed when cart quantities change.
 

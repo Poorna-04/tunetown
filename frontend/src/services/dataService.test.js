@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import {
   ServiceError,
   addReview,
@@ -44,6 +44,19 @@ describe('catalogue service', () => {
     expect(result.products).toHaveLength(3);
     expect(result.products.every(({ category }) => category === 'Guitars')).toBe(true);
     expect(result.products[0].price).toBeLessThanOrEqual(result.products[1].price);
+  });
+
+  it('filters products by their discounted selling price', async () => {
+    const result = await getProducts({ minPrice: 2000, maxPrice: 4000, limit: 100 });
+
+    expect(result.products).not.toContainEqual(expect.objectContaining({ id: 'guitars-003' }));
+    expect(
+      result.products.every(
+        (product) =>
+          product.price * (1 - (product.discountPercentage ?? 0) / 100) >= 2000 &&
+          product.price * (1 - (product.discountPercentage ?? 0) / 100) <= 4000,
+      ),
+    ).toBe(true);
   });
 
   it('rejects an unknown product with status 404', async () => {
@@ -100,6 +113,24 @@ describe('catalogue service', () => {
 });
 
 describe('orders and stock', () => {
+  it('uses a cross-tab lock while placing an order', async () => {
+    const originalLocks = Object.getOwnPropertyDescriptor(navigator, 'locks');
+    const request = vi.fn((_name, operation) => operation());
+    Object.defineProperty(navigator, 'locks', { configurable: true, value: { request } });
+
+    try {
+      await placeOrder({
+        submissionId: 'checkout-locked',
+        items: [{ productId: 'guitars-002', quantity: 1, price: 1773.5 }],
+      });
+    } finally {
+      if (originalLocks) Object.defineProperty(navigator, 'locks', originalLocks);
+      else delete navigator.locks;
+    }
+
+    expect(request).toHaveBeenCalledWith('tunetown-place-order', expect.any(Function));
+  });
+
   it('places an order once, reduces stock, and returns the same result for a duplicate submission', async () => {
     const before = await getStock('guitars-002');
     const order = {

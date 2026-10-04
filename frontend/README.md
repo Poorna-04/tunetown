@@ -4,7 +4,7 @@ TuneTown is a browser-only musical-instrument shop built with React 19, Redux To
 
 ## Current status
 
-The Core requirements for Modules 1–8 are implemented. Level-ups L2, L3 and L8 are implemented and documented in `docs/CHALLENGES.md`. The mentor-provided bug hunt remains pending.
+The Core requirements for Modules 1–8 are implemented. Level-ups L2, L3 and L8 are implemented and documented in `docs/CHALLENGES.md`. Four peer-raised issues have been fixed and recorded in `docs/PEER_TESTS.md`; peer re-verification and screenshots remain pending.
 
 ## Requirements
 
@@ -44,6 +44,6 @@ All JSON and browser-storage access belongs to `src/services/`. UI code must use
 ## Verification
 
 - `npm run lint`: passed
-- `npm test`: 35 tests passed
+- `npm test`: 40 tests passed
 - `npm run build`: passed
 - Checkout leave confirmation and draft restoration: browser checked

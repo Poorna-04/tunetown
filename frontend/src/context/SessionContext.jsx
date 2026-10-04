@@ -16,12 +16,15 @@ export function SessionProvider({ children }) {
   }, []);
 
   async function setRole(nextRole) {
+    setRoleState(nextRole);
     try {
       const savedSession = await saveSession({ role: nextRole });
       setRoleState(savedSession.role);
+      return savedSession.role;
     } catch {
       const session = await getSession();
       setRoleState(session.role);
+      return session.role;
     }
   }
 

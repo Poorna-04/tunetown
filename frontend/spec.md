@@ -31,7 +31,7 @@ The default role. A shopper can use the catalogue, product pages, cart, wishlist
 
 ### Store manager
 
-A role selected from the header. There is no real authentication. A shopper who opens an admin URL sees a sign-in prompt and returns to the originally requested page after switching to the store-manager role.
+A role selected from the header. There is no real authentication. A shopper who opens an admin URL sees a sign-in prompt and returns to the originally requested page after switching to the store-manager role. Switching from a shopper page opens the manager dashboard and removes shopper-only Cart and Wishlist shortcuts; switching back opens the shop.
 
 ## 4. Scope and constraints
 
@@ -102,6 +102,7 @@ Service behavior:
 - Unknown records return `404`.
 - `reserveStock` takes approximately 300 ms and fails 30% of the time when that scenario is enabled.
 - `placeOrder` takes approximately two seconds, fails roughly one time in three when enabled, returns `409` for insufficient stock, and reduces stock only on success.
+- Concurrent `placeOrder` calls are serialized across tabs while stock is revalidated and the order and stock records are written.
 - Orders are returned newest first.
 - Orders may be cancelled only during the first 60 seconds.
 - A shopper may review a product only once.
@@ -130,7 +131,7 @@ Development defaults and production defaults come from environment variables. De
 
 - Update results while the shopper types without calling the service on every keystroke.
 - Pressing `/` focuses search unless the user is already typing in a form field.
-- Filter by category, multiple brands, minimum rating, and minimum/maximum price.
+- Filter by category, multiple brands, minimum rating, and minimum/maximum final selling price after discount.
 - Show product counts beside category options.
 - Sort by relevance, price in both directions, rating, and newest.
 - Returning to relevance must restore the service's original order.
@@ -163,7 +164,7 @@ Development defaults and production defaults come from environment variables. De
 - Hide the header cart badge when empty; otherwise show the total item quantity.
 - Show subtotal, 18% GST, shipping, grand total, and total savings in Indian rupee format with two decimals.
 - Shipping is free above ₹999 and ₹49 otherwise.
-- Persist cart and wishlist across refreshes.
+- Persist cart and wishlist across refreshes, with rapid writes committed in dispatch order.
 - Display an empty-cart action that returns to shopping.
 - Show portal-based toast notifications that stack, disappear after three seconds, pause on hover, and are not clipped.
 - Update wishlist hearts optimistically. Roll back and show an error toast if persistence fails.

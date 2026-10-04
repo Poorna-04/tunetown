@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useDeliveryLocation } from '../../hooks/useDeliveryLocation';
 import { useSession } from '../../hooks/useSession';
@@ -6,6 +6,7 @@ import { useSession } from '../../hooks/useSession';
 const navClassName = ({ isActive }) => (isActive ? 'nav-link nav-link--active' : 'nav-link');
 
 export default function Header() {
+  const navigate = useNavigate();
   const cartCount = useSelector((state) =>
     state.shopping.cart.reduce((sum, item) => sum + item.quantity, 0),
   );
@@ -17,6 +18,12 @@ export default function Header() {
     event.preventDefault();
     const nextPin = new FormData(event.currentTarget).get('deliveryPin');
     if (/^\d{6}$/.test(nextPin)) setPin(nextPin);
+  }
+
+  function handleRoleSwitch() {
+    const nextRole = role === 'manager' ? 'shopper' : 'manager';
+    setRole(nextRole);
+    navigate(nextRole === 'manager' ? '/admin/products' : '/');
   }
 
   return (
@@ -42,22 +49,24 @@ export default function Header() {
           </label>
           <button type="submit">Set</button>
         </form>
-        <div className="header-actions" aria-label="Shopping shortcuts">
-          <NavLink to="/wishlist">Wishlist{wishlistCount ? ` (${wishlistCount})` : ''}</NavLink>
-          <NavLink to="/cart">
-            Cart
-            {cartCount ? (
-              <span className="cart-badge" aria-label={`${cartCount} cart items`}>
-                {cartCount}
-              </span>
-            ) : null}
-          </NavLink>
-        </div>
+        {role !== 'manager' ? (
+          <div className="header-actions" aria-label="Shopping shortcuts">
+            <NavLink to="/wishlist">Wishlist{wishlistCount ? ` (${wishlistCount})` : ''}</NavLink>
+            <NavLink to="/cart">
+              Cart
+              {cartCount ? (
+                <span className="cart-badge" aria-label={`${cartCount} cart items`}>
+                  {cartCount}
+                </span>
+              ) : null}
+            </NavLink>
+          </div>
+        ) : null}
         <button
           type="button"
           className="role-switch secondary-button"
           disabled={!role}
-          onClick={() => setRole(role === 'manager' ? 'shopper' : 'manager')}
+          onClick={handleRoleSwitch}
         >
           {role === 'manager' ? 'Switch to Shopper' : 'Switch to Store manager'}
         </button>

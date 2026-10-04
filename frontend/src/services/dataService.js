@@ -19,6 +19,7 @@ const objectValidator = (value) =>
   value !== null && typeof value === 'object' && !Array.isArray(value);
 
 let randomSource = Math.random;
+let orderQueue = Promise.resolve();
 
 export class ServiceError extends Error {
   constructor(status, message) {
@@ -42,6 +43,16 @@ function createOrderId(orders) {
   do id = createId('ORD', 6);
   while (orders.some((order) => order.id === id));
   return id;
+}
+
+function withOrderLock(operation) {
+  if (globalThis.navigator?.locks) {
+    return globalThis.navigator.locks.request('tunetown-place-order', operation);
+  }
+
+  const result = orderQueue.catch(() => {}).then(operation);
+  orderQueue = result;
+  return result;
 }
 
 function readProducts() {
@@ -142,13 +153,14 @@ function applyProductQuery(products, options) {
   const filtered = products.filter((product) => {
     const searchableText =
       `${product.title} ${product.brand} ${product.description}`.toLocaleLowerCase();
+    const sellingPrice = product.price * (1 - (product.discountPercentage ?? 0) / 100);
     return (
       (!query || searchableText.includes(query)) &&
       (!category || product.category === category) &&
       (!brands.length || brands.includes(product.brand)) &&
       (minRating == null || product.rating >= Number(minRating)) &&
-      (minPrice == null || product.price >= Number(minPrice)) &&
-      (maxPrice == null || product.price <= Number(maxPrice))
+      (minPrice == null || sellingPrice >= Number(minPrice)) &&
+      (maxPrice == null || sellingPrice <= Number(maxPrice))
     );
   });
 
@@ -207,52 +219,53 @@ export function placeOrder(order) {
   return runOperation(
     'placeOrder',
     { order },
-    () => {
-      if (!order?.items?.length) throw new ServiceError(409, 'The order has no items.');
+    () =>
+      withOrderLock(() => {
+        if (!order?.items?.length) throw new ServiceError(409, 'The order has no items.');
 
-      const orders = readCollection('orders');
-      const duplicate =
-        order.submissionId &&
-        orders.find(({ submissionId }) => submissionId === order.submissionId);
-      if (duplicate) return { orderId: duplicate.id, placedAt: duplicate.placedAt };
+        const orders = readCollection('orders');
+        const duplicate =
+          order.submissionId &&
+          orders.find(({ submissionId }) => submissionId === order.submissionId);
+        if (duplicate) return { orderId: duplicate.id, placedAt: duplicate.placedAt };
 
-      const products = readProducts();
-      const shortages = [];
+        const products = readProducts();
+        const shortages = [];
 
-      for (const item of order.items) {
-        const product = products.find(({ id }) => id === item.productId);
-        if (
-          !product ||
-          !Number.isInteger(item.quantity) ||
-          item.quantity < 1 ||
-          item.quantity > product.stock
-        ) {
-          shortages.push(item.productId);
+        for (const item of order.items) {
+          const product = products.find(({ id }) => id === item.productId);
+          if (
+            !product ||
+            !Number.isInteger(item.quantity) ||
+            item.quantity < 1 ||
+            item.quantity > product.stock
+          ) {
+            shortages.push(item.productId);
+          }
         }
-      }
 
-      if (shortages.length) {
-        throw new ServiceError(409, `Insufficient stock for: ${shortages.join(', ')}.`);
-      }
+        if (shortages.length) {
+          throw new ServiceError(409, `Insufficient stock for: ${shortages.join(', ')}.`);
+        }
 
-      for (const item of order.items) {
-        const product = products.find(({ id }) => id === item.productId);
-        product.stock -= item.quantity;
-      }
+        for (const item of order.items) {
+          const product = products.find(({ id }) => id === item.productId);
+          product.stock -= item.quantity;
+        }
 
-      const placedAt = new Date().toISOString();
-      const savedOrder = {
-        ...clone(order),
-        id: createOrderId(orders),
-        placedAt,
-        cancelledAt: null,
-      };
-      writeStoredValue('products', products);
-      writeStoredValue('orders', [savedOrder, ...orders]);
-      publishServiceEvent('products');
-      publishServiceEvent('orders');
-      return { orderId: savedOrder.id, placedAt };
-    },
+        const placedAt = new Date().toISOString();
+        const savedOrder = {
+          ...clone(order),
+          id: createOrderId(orders),
+          placedAt,
+          cancelledAt: null,
+        };
+        writeStoredValue('products', products);
+        writeStoredValue('orders', [savedOrder, ...orders]);
+        publishServiceEvent('products');
+        publishServiceEvent('orders');
+        return { orderId: savedOrder.id, placedAt };
+      }),
     { failureRate: 1 / 3, defaultDelay: 2000 },
   );
 }
